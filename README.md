@@ -17,15 +17,15 @@
 
 | Utils | Def | 
 |----------|----------|
-| *image_preprocessing.py*   | Crop the detected person object, save it in .jpg format, and convert it into a vector suitable for input into a Vision Transformer | 
+| *image_preprocessing.py*   | Crop the detected person object, save it in *_.jpg_* format, and convert it into a vector suitable for input into a Vision Transformer | 
 | *tracking.py*   | Utilize YOLO for detecting person objects and employ DeepSort for real-time tracking  | 
 
-
+---
 
 
 ## Directory Achitecture
 
-"""
+```
 .
 ├── README.md
 ├── args_parser.py
@@ -89,6 +89,5 @@
 ├── yolo_pt
 ├── yolo_save_csv
 └── yolo_save_img
-"""
-
+```
 
