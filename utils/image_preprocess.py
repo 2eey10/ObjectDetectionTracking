@@ -1,7 +1,7 @@
 from torchvision import transforms
 import cv2 
 import os
-# person object crop
+
 def crop_person_objects(frame, bbox_xyxy):
     """
     주어진 프레임에서 person objects의 bounding box 영역에 해당하는 이미지를 잘라내어 반환
@@ -20,7 +20,7 @@ def crop_person_objects(frame, bbox_xyxy):
         crop_img = frame[y1:y2, x1:x2]
         crops.append(crop_img)
     return crops
-# crop한 이미지를 .jpg 형태로 저장
+
 def save_cropped_images(cropped_images, frame_number, output_dir):
     """
     잘라낸 이미지들을 디렉토리에 저장
