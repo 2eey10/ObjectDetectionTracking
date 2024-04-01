@@ -6,6 +6,8 @@
 * Track the detected person objects in real-time.
 * Listen in real-time, and simultaneously, have the ViT also listen.
 
+![Object_Detection](https://github.com/2eey10/ObjectDetectionTracking/assets/133326837/136cd94e-acf9-4100-a4d5-9ca6aa08863a)
+
 ---
 | Inference | Def | 
 |----------|----------|
