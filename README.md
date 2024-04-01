@@ -30,37 +30,14 @@
 ├── README.md
 ├── args_parser.py
 ├── deep_sort_pytorch
-│   ├── LICENSE
-│   ├── README.md
 │   ├── configs
 │   │   └── deep_sort.yaml
 │   ├── deep_sort
 │   │   ├── README.md
 │   │   ├── deep
-│   │   │   ├── checkpoint
-│   │   │   ├── evaluate.py
-│   │   │   ├── feature_extractor.py
-│   │   │   ├── model.py
-│   │   │   ├── original_model.py
-│   │   │   ├── test.py
-│   │   │   ├── train.jpg
-│   │   │   └── train.py
 │   │   ├── deep_sort.py
 │   │   ├── sort
-│   │   │   ├── detection.py
-│   │   │   ├── iou_matching.py
-│   │   │   ├── kalman_filter.py
-│   │   │   ├── linear_assignment.py
-│   │   │   ├── nn_matching.py
-│   │   │   ├── preprocessing.py
-│   │   │   ├── track.py
-│   │   │   └── tracker.py
 │   │   └── sort - Copy
-│   │       ├── iou_matching.py
-│   │       ├── kalman_filter.py
-│   │       ├── linear_assignment.py
-│   │       ├── nn_matching.py
-│   │       └── preprocessing.py
 │   └── utils
 │       ├── asserts.py
 │       ├── draw.py
