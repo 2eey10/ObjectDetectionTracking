@@ -8,5 +8,4 @@ def main():
     process_video(video_path, output_path, results_csv_path, tensor_results_csv_path) 
     
 if __name__ == "__main__":
-    main()
-    
+    main()    
