@@ -6,11 +6,21 @@
 * Track the detected person objects in real-time.
 * Listen in real-time, and simultaneously, have the ViT also listen.
 
+---
 | Inference | Def | 
 |----------|----------|
 | *hog_test.py*   | Setup of HOG Descriptor and Default person Detector| 
 | *webcam_test.py*   | Setup of person Object Detection Using Built-in Webcam   | 
-| *yolo_demo.py*   | Setup of person Object Detection Using YOLO   |    
+| *yolo_main.py*   | Setup of person Object Detection Using YOLO_NAS, Tracking TOOL Deepsort   |    
+
+---
+
+| Utils | Def | 
+|----------|----------|
+| *image_preprocessing.py*   | Crop the detected person object, save it in .jpg format, and convert it into a vector suitable for input into a Vision Transformer | 
+| *tracking.py*   | Utilize YOLO for detecting person objects and employ DeepSort for real-time tracking  | 
+
+
 
 
 ## Directory Achitecture
