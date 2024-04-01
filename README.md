@@ -13,4 +13,72 @@
 | *yolo_demo.py*   | Setup of person Object Detection Using YOLO   |    
 
 
+## Directory Achitecture
+
+"""
+.
+├── README.md
+├── args_parser.py
+├── deep_sort_pytorch
+│   ├── LICENSE
+│   ├── README.md
+│   ├── configs
+│   │   └── deep_sort.yaml
+│   ├── deep_sort
+│   │   ├── README.md
+│   │   ├── deep
+│   │   │   ├── checkpoint
+│   │   │   ├── evaluate.py
+│   │   │   ├── feature_extractor.py
+│   │   │   ├── model.py
+│   │   │   ├── original_model.py
+│   │   │   ├── test.py
+│   │   │   ├── train.jpg
+│   │   │   └── train.py
+│   │   ├── deep_sort.py
+│   │   ├── sort
+│   │   │   ├── detection.py
+│   │   │   ├── iou_matching.py
+│   │   │   ├── kalman_filter.py
+│   │   │   ├── linear_assignment.py
+│   │   │   ├── nn_matching.py
+│   │   │   ├── preprocessing.py
+│   │   │   ├── track.py
+│   │   │   └── tracker.py
+│   │   └── sort - Copy
+│   │       ├── iou_matching.py
+│   │       ├── kalman_filter.py
+│   │       ├── linear_assignment.py
+│   │       ├── nn_matching.py
+│   │       └── preprocessing.py
+│   └── utils
+│       ├── asserts.py
+│       ├── draw.py
+│       ├── evaluation.py
+│       ├── io.py
+│       ├── json_logger.py
+│       ├── log.py
+│       ├── parser.py
+│       └── tools.py
+├── input
+├── output
+├── ultralytics
+│   ├── docker
+│   ├── docs
+│   ├── examples
+│   ├── mkdocs.yml
+│   ├── pyproject.toml
+│   ├── tests
+│   └── ultralytics
+├── utils
+│   ├── image_preprocess.py
+│   └── tracking.py
+├── webcam_test.py
+├── yolo_main.py
+├── yolo_nas.py
+├── yolo_pt
+├── yolo_save_csv
+└── yolo_save_img
+"""
+
 
