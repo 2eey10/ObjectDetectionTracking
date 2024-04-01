@@ -155,4 +155,3 @@ def process_video(video_path, output_path, results_csv_path, tensor_results_csv_
     output.release()
     cap.release()
     cv2.destroyAllWindows()
-
