@@ -8,7 +8,7 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 model = models.get('yolo_nas_s', pretrained_weights='coco').to(device)
 
-cap = cv2.VideoCapture('/Users/leeyongryull/Desktop/dev/PIA/Task/test_video.mp4')
+cap = cv2.VideoCapture('/your_video.mp4')
 assert cap.isOpened(), "Error reading video file"
 
 frame_width = int(cap.get(3))
